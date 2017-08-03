@@ -1,0 +1,49 @@
+body{
+  background-color: #4D5656;
+  font-family: fantasy;
+  color: red;
+}
+
+#deadmau5{
+  width: 100%;
+  height: 540px;
+}
+
+background{}
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+}
+
+.main{
+  float:left;
+  color: white;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+}
+
+.child_img{
+  float: left;
+  width: 50%;
+  z-index: 1;
+}
+.chid_txt{
+  float: right;
+  width: 50%;
+  margin-top: 10%;
+}
+@media screen and (min-width: 320px) {
+  body{
+    background-color: black ;
+    color: black;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #4D5656 ;
+  }
+}
