@@ -19,8 +19,8 @@ There are no known bugs.
 
 ## Technologies Used
 
-*HTML 5.
-*CSS.
+* HTML 5.
+* CSS.
 
 ## Contributors
 This was an independent project. For any corrections or improvement kindly contact me on gmail.(shadrack.winters@outlook.com)
