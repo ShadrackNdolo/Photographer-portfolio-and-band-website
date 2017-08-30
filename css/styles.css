@@ -78,7 +78,7 @@ h1{
     padding: 5px;
     margin-right: auto;
 }
-
+/*media queries*/
 		@media screen and (max-width: 736px) {
 
 			#footer {
