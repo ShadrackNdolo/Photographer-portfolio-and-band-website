@@ -13,31 +13,26 @@ h1{
   height: 100%;
 }
 
-.sidebar {
-  width: 30%;
-  float: right;
-  background-color: black;
-  color: white;
-}
+
 
 .main{
-  float:left;
   color: white;
-  border-left: 8px solid white;
-  border-right: 8px solid white;
-  border-top: 8px solid white;
-  border-bottom: 8px solid white;
+  border: 8px solid white;
 }
 
 .child_img{
   float: left;
-  width: 50%;
+  width: 30%;
   z-index: 1;
 }
-.chid_txt{
+
+#sidebar {
+  width: 30%;
   float: right;
-  width: 50%;
-  margin-top: 10%;
+  background-color: black;
+  color: white;
+  z-index: 1;
+
 }
 @media screen and (min-width: 320px) {
   body{
@@ -51,3 +46,43 @@ h1{
     background-color: #000000;
   }
 }
+
+
+/* Footer */
+
+	#footer {
+		padding: 4rem 0 2rem 0 ;
+		background-color: red;
+		text-align: center;
+    bottom: 0%;
+    position: relative;
+  }
+
+		#footer a {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+			#footer a:hover {
+				color: #FFF;
+			}
+
+		#footer .copyright {
+			color: #bbb;
+			font-size: 2rem;
+			margin: 0 0 2rem 0;
+			padding: 0;
+			text-align: center;
+		}
+    .icons li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: auto;
+}
+
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 3rem 0 1rem 0 ;
+			}
+
+		}
