@@ -5,7 +5,7 @@
 #### By **Ndolo Shadrack Winter**
 
 ## Description
-This is a photography website that describes deadmau5 and shows his concert dates.
+This is a photography website that describes my portfolio and displays deadmau5 as a musician and shows his concert dates.
 
 ## Setup/Installation Requirements
 
